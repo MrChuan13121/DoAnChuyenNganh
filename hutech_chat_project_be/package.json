@@ -1,0 +1,36 @@
+{
+  "name": "apiappchat",
+  "version": "1.0.0",
+  "description": "create api app chat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "apiappchat"
+  ],
+  "author": "mrchuan",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "firebase-admin": "^11.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.5",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://adminchuan@bitbucket.org/tinorion/hutech_chat_project_be.git"
+  },
+  "homepage": "https://bitbucket.org/tinorion/hutech_chat_project_be#readme"
+}

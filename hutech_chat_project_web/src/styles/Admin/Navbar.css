@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+/* Navbar CSS */
+.navbar {
+  background-color: #002e48;
+  height: 80px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.menu-bars {
+  margin-left: 2rem;
+  font-size: 2rem;
+  background: none;
+  color: #fff;
+  background-color: #002e48;
+  background-size: cover;
+}
+
+.nav-menu {
+  z-index: inherit;
+  background-color: #002e48;
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  border: 1px solid;
+
+  box-shadow: 5px 9px 8px #0f0f0f;
+}
+
+.nav-menu.active {
+  left: 0;
+}
+
+.nav-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 8px 0px 8px 16px;
+  list-style: none;
+  height: 60px;
+}
+
+.nav-text a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 4px;
+}
+
+.nav-text a:hover {
+  background-color: aqua;
+  color: rgb(0, 0, 0);
+}
+
+.nav-menu-items {
+  width: 100%;
+  background-color: #002e48;
+}
+
+.navbar-toggle {
+  background-color: #002e48;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+span {
+  margin-left: 16px;
+}
+
+.text {
+  font-size: xx-large;
+}

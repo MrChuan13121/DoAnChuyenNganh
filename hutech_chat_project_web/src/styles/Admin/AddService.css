@@ -1,0 +1,186 @@
+.modalBackground {
+  height: fit-content;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer-ser {
+  width: 500px;
+  height: 287px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 45px;
+}
+
+.modalContainer-ser .title {
+  display: inline-block;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.titleCloseBtn-ser {
+  display: flex;
+  justify-content: flex-end;
+  height: 8%;
+}
+
+.titleCloseBtn-ser button {
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.form-ser {
+  width: 100%;
+  height: 100%;
+}
+.modalContainer-ser .body {
+  flex: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+.modalContainer-ser .footer {
+  flex: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer-ser .footer button {
+  width: 150px;
+  height: 45px;
+  margin: 10px;
+  border: none;
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#cancelBtn-ser {
+  background-color: crimson;
+}
+
+/* .delete {
+    width: 70px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    background-color: cornflowerblue;
+    color: white;
+    cursor: pointer;
+    margin-top: -20px;
+  } */
+
+.error {
+  font-size: 15px;
+  color: #d9534f;
+}
+
+.tit-ser {
+  font-size: 15px;
+  text-align: center;
+  color: #002e48;
+  font-weight: bold;
+}
+
+.sum-ser {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 80%;
+  margin-bottom: 10px;
+}
+
+.img-ser {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+  align-items: center;
+  height: 100%;
+}
+
+.img-ser input {
+  font-size: 9px;
+}
+.fo-ser {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 55%;
+  padding-left: 50px;
+}
+
+.activeAddService {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.row-ser-1 {
+  flex-direction: row;
+}
+.row-ser-2 {
+  flex-direction: row;
+}
+
+.row-name-ser {
+  color: #002e48;
+  font-size: 15px;
+  display: inline-block;
+  width: 100%;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.row-input-ser {
+  display: inline-block;
+  width: 100%;
+}
+
+.input-ser {
+  color: #002e48;
+  width: 100%;
+  height: 40px;
+  border-color: #ffffff00;
+  border-bottom-width: 2px;
+  border-bottom-color: #d9534f;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+.btt-sub-ser {
+  font-size: medium;
+  border-radius: 15px;
+  height: 40px;
+  width: 120px;
+  background-color: #00507c;
+  color: white;
+  margin-left: 120px;
+  border: none;
+}
+
+.btt-can-ser {
+  font-size: medium;
+  border-radius: 15px;
+  height: 40px;
+  width: 120px;
+  background-color: crimson;
+  color: white;
+  margin-left: 20px;
+  justify-content: center;
+  border: none;
+}

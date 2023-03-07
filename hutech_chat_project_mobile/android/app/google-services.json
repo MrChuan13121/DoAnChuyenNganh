@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1020049738569",
+    "firebase_url": "https://nc-chat-1462e-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "nc-chat-1462e",
+    "storage_bucket": "nc-chat-1462e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020049738569:android:565121296f2b2d19f26898",
+        "android_client_info": {
+          "package_name": "com.nc_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1020049738569-6sbr9t7pgdp6a420iu15f4k4o89q9ala.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nc_chat",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "1020049738569-e654rigbil0njatpfpq7fp1qn0nccmbt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqIN9d5eVKyAlgb0LdKH2eWSjs3A_XRw8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1020049738569-e654rigbil0njatpfpq7fp1qn0nccmbt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

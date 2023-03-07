@@ -1,0 +1,123 @@
+.modalBackground {
+    width: 90vw;
+    height: 70vh; 
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+   
+  .modalContainer {
+    width: 500px;
+    height: 500px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+  }
+  
+  .modalContainer .title {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  .modalContainer .body {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    text-align: center;
+  }
+  
+  .modalContainer .footer {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContainer .footer button {
+    width: 150px;
+    height: 45px;
+    margin: 10px;
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  #cancelBtn {
+    background-color: crimson;
+  }
+  
+  .form{
+    padding-left: -1000px;
+  }
+
+  .tit {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #002e48
+  }
+
+  .row {
+    flex-direction: row;
+  }
+
+  .row-name {
+    font-size: 15px;
+    display: inline-block;
+    width: 20%;
+    margin-left: 20px;
+    color: #002e48
+  }
+
+  .row-input {
+    display: inline-block;
+    width: 75%;
+  }
+
+  .input{
+    margin-left: 20px;
+    color: #002e48
+  }
+
+  .btt-sub {
+    font-size: medium;
+    border-radius: 20px;
+    height: 40px;
+    width: 120px;
+    background-color: #00507c;
+    color: white;
+    margin-left: 120px;
+  }
+
+  .btt-can {
+    font-size: medium;
+    border-radius: 20px;
+    height: 40px;
+    width: 120px;
+    background-color: #DD0000;
+    color: white;
+    margin-left: 20px;
+    justify-content: center;
+  }

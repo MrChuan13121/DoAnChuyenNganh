@@ -1,0 +1,28 @@
+/* .App {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+table {
+  border: 2px solid forestgreen;
+  width: 800px;
+  height: 200px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+tr:hover {
+  background-color: #ddd;
+}
+th {
+  border-bottom: 1px solid black;
+  background-color: #34d1be;
+}
+
+td {
+  text-align: center;
+}

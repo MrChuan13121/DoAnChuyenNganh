@@ -1,0 +1,231 @@
+.containerServices {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #f0f8ff;
+  height: 100vh;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.text {
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #002e48;
+}
+
+.contentsv {
+  width: 92%;
+  height: 90%;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nameColumn {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  height: 50px;
+  background-color: #002e48;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: aliceblue;
+  text-align: center;
+  align-items: center;
+}
+
+.image-ser {
+  height: 50px;
+  padding-left: 100px;
+}
+
+.panel {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: inline-block;
+  font-size: xx-large;
+  text-align: center;
+  padding-bottom: 30px;
+  color: black;
+  display: inline-block;
+}
+.deleted {
+  width: 70px;
+  height: 40px;
+  border: none;
+  border-radius: 6px;
+  background-color: cornflowerblue;
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.panel {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: inline-block;
+  font-size: xx-large;
+  text-align: center;
+  padding-bottom: 50px;
+  color: black;
+  display: inline-block;
+}
+
+.mainBox {
+  width: 100%;
+  margin-bottom: 40px;
+  flex-direction: column;
+  background-color: white;
+}
+
+.info-p {
+  height: 30%;
+}
+
+.user-Details {
+  height: 100%;
+  font-size: medium;
+}
+
+.header {
+  flex-direction: row;
+}
+.form-update {
+  display: flex;
+  flex-direction: row;
+}
+.user-left-ser {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 50%;
+}
+
+.user-image-ser {
+  display: flex;
+  height: 100%;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-book {
+  height: 20vh;
+  width: 13vw;
+  padding-top: 20px;
+}
+
+.form-update .title-v1 {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  padding-top: 20px;
+  margin-left: 50px;
+}
+
+.form-update .value-v1 {
+  width: 80%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  border-color: rgba(255, 255, 255, 0);
+  border-bottom-width: 2px;
+  border-bottom-color: rebeccapurple;
+  margin-top: 5px;
+  height: 30px;
+  text-align: justify;
+}
+
+.user-right-ser {
+  display: inline-block;
+  margin-left: 10px;
+  width: 35%;
+  padding-top: -40px;
+}
+
+hr {
+  margin-top: 10px;
+  color: #04aa6d;
+}
+
+.btn {
+  margin-left: 500px;
+  padding-bottom: 20px;
+  margin-top: 30px;
+}
+
+.confirm {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  height: 30px;
+  /* margin-right: 30px; */
+  background-color: #77ab49;
+  color: white;
+}
+
+.update {
+  transition: all 0.5s;
+}
+
+.exit {
+  display: inline-block;
+  font-weight: bold;
+  border: #eeeeee00;
+  height: 30px;
+  background-color: rgba(128, 128, 128, 0.681);
+  border-radius: 20px;
+  width: 5%;
+}
+
+.user-info {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  margin-top: 20px;
+
+  background-color: #eeeeee;
+  border-radius: 15px;
+  font-size: 18px;
+  padding-top: 30px;
+  height: 50px;
+  padding-left: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+  /* width: 100%; */
+}
+
+.openModalB-upSV {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.openModalBtn-upSV {
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 6px;
+  background-color: cornflowerblue;
+  color: white;
+  cursor: pointer;
+  align-content: center;
+  margin-right: 120px;
+}
+
+.openModalBtn-ser {
+  margin: 10px;
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 6px;
+  background-color: cornflowerblue;
+  color: white;
+  cursor: pointer;
+}

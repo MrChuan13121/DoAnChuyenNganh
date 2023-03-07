@@ -1,0 +1,127 @@
+.containerBook {
+  background-color: rgb(240, 248, 255);
+}
+
+.mainBox {
+  width: 100%;
+  margin-bottom: 40px;
+  /* margin-left: 20px; */
+  /* margin-right: 20px; */
+  flex-direction: column;
+  background-color: white;
+}
+
+.info {
+  height: 30%;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.user-Details {
+  flex-direction: row;
+  font-size: medium;
+  padding-left: 10px;
+  padding-bottom: 40px;
+}
+
+.header {
+  flex-direction: row;
+}
+.panel {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  display: inline-block;
+  width: 90%;
+  font-size: xx-large;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.user-left-book {
+  display: inline-block;
+  width: 35%;
+}
+
+.title-v1 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  padding-top: 20px;
+  margin-left: 50px;
+}
+
+.value-v1 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  color: black;
+  text-align: justify;
+}
+
+.user-right-book {
+  display: inline-block;
+  margin-left: 10px;
+  width: 35%;
+}
+
+hr {
+  margin-top: 10px;
+  /* margin-left: 20px; */
+  /* margin-right: 20px; */
+}
+
+.btn {
+  margin-left: 500px;
+  padding-bottom: 20px;
+  margin-top: 30px;
+}
+
+.confirm {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  height: 30px;
+  /* margin-right: 30px; */
+  background-color: #77ab49;
+  color: white;
+}
+
+.cancel {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  height: 30px;
+  /* margin-right: 30px; */
+  background-color: #d9534f;
+  color: white;
+}
+
+.exit {
+  display: inline-block;
+  width: 5%;
+}
+
+.tabs {
+  height: fit-content;
+  background-color: #eeeeee;
+}
+
+/* Tab Xac Nhan Lich Kham Cua Benh Nhan */
+
+/* Tab lich su chat voi benh nhan */
+
+.time- {
+  padding-left: 20px;
+}
+
+.user-info {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  margin-top: 20px;
+
+  background-color: #eeeeee;
+  border-radius: 15px;
+  font-size: 18px;
+  padding-top: 30px;
+  height: 50px;
+  padding-left: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+  /* width: 100%; */
+}
